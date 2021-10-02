@@ -42,7 +42,7 @@ int main() {
                 std::cout << "You did not enter an integer." << std::endl;
             }
         } else {
-            std::cout << "You did not enter a postive integer." << std::endl;
+            std::cout << "You did not enter a positive integer." << std::endl;
         }
     } catch (std::invalid_argument) {
         std::cout << "You did not enter an integer." << std::endl;
